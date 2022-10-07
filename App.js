@@ -33,11 +33,11 @@ export default function App() {
       />
       <TextInput
         style={styles.input}
-        placeholder="Add your phrase"
+        placeholder="Kirjoita teksti tähän"
         onChangeText={(text) => setPhrase(text)}
       />
       <Pressable style={styles.button} onPress={speakUp}>
-        <Text style={styles.buttonText}>Press to hear the text</Text>
+        <Text style={styles.buttonText}>Paina kuunnellaksesi</Text>
       </Pressable>
     </View>
   );
